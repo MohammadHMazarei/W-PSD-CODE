@@ -1,0 +1,17 @@
+\begin{table}
+\centering
+\caption{Reproducible results on the AwA/AwA2 class--attribute matrix ($q=2$, $\lambda=0.001$)}
+\label{tab:results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Method} & \textbf{P@5}$\uparrow$ & \textbf{P@10}$\uparrow$ & \textbf{P@20}$\uparrow$ & \textbf{Mean $\Delta_x$ (W2)} & \textbf{$L_1(\Gamma,\Pobs)$} & \textbf{Iter.} & \textbf{Time (s)} \\
+\midrule
+PSD-CODE (fixed-lambda baseline) & 0.7960 & 0.7260 & 0.6640 & 0.0051 & 0.0000 & 60 & 1.17 \\
+W-PSD-CODE (exact OT) & 0.5000 & 0.4720 & 0.4620 & 0.0155 & 1.9501 & 60 & 2.34 \\
+W-PSD-CODE (entropic, eps=0.01) & 0.4160 & 0.3920 & 0.3420 & 0.0019 & 0.9227 & 60 & 0.91 \\
+W-PSD-CODE (KL-anchored, eps=0.05) & 0.7960 & 0.7300 & 0.6630 & 0.0051 & 0.0321 & 60 & 1.38 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

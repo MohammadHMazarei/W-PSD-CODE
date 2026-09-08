@@ -1,0 +1,161 @@
+{
+  "protocol": "rho-epsilon screening sweep; P@10 evaluated on full AwA/AwA2; delta uses exact OT at final learned geometry",
+  "rho_values": [
+    0.005,
+    0.03,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "epsilon_values": [
+    0.005,
+    0.05
+  ],
+  "rows": [
+    {
+      "rho": 0.005,
+      "epsilon": 0.005,
+      "p_at_10": 0.72,
+      "l1_gamma_pobs": 0.048125207727530595,
+      "delta_pobs_gamma_ot": 0.0003611822838028994,
+      "pobs_transport_cost": 1.9917349654656842,
+      "exact_ot_transport_cost": 1.9913737831818814,
+      "iterations": 30,
+      "runtime_seconds": 0.4252002239227295,
+      "wall_clock_seconds": 0.46519041061401367
+    },
+    {
+      "rho": 0.005,
+      "epsilon": 0.05,
+      "p_at_10": 0.728,
+      "l1_gamma_pobs": 0.005127477695169158,
+      "delta_pobs_gamma_ot": 0.00018904468357322513,
+      "pobs_transport_cost": 1.9917407290302267,
+      "exact_ot_transport_cost": 1.9915516843466534,
+      "iterations": 30,
+      "runtime_seconds": 0.42445969581604004,
+      "wall_clock_seconds": 0.4600059986114502
+    },
+    {
+      "rho": 0.03,
+      "epsilon": 0.005,
+      "p_at_10": 0.72,
+      "l1_gamma_pobs": 0.049339313491596176,
+      "delta_pobs_gamma_ot": 0.0003503535228301779,
+      "pobs_transport_cost": 1.9917791769412867,
+      "exact_ot_transport_cost": 1.9914288234184567,
+      "iterations": 30,
+      "runtime_seconds": 0.42074108123779297,
+      "wall_clock_seconds": 0.457855224609375
+    },
+    {
+      "rho": 0.03,
+      "epsilon": 0.05,
+      "p_at_10": 0.728,
+      "l1_gamma_pobs": 0.024451632440232345,
+      "delta_pobs_gamma_ot": 0.00018416093401720304,
+      "pobs_transport_cost": 1.9918129284230912,
+      "exact_ot_transport_cost": 1.9916287674890738,
+      "iterations": 30,
+      "runtime_seconds": 0.4062008857727051,
+      "wall_clock_seconds": 0.44155001640319824
+    },
+    {
+      "rho": 0.05,
+      "epsilon": 0.005,
+      "p_at_10": 0.72,
+      "l1_gamma_pobs": 0.0506599434208922,
+      "delta_pobs_gamma_ot": 0.00034177032789550754,
+      "pobs_transport_cost": 1.9918154696791799,
+      "exact_ot_transport_cost": 1.9914736993512845,
+      "iterations": 30,
+      "runtime_seconds": 0.41297101974487305,
+      "wall_clock_seconds": 0.4499843120574951
+    },
+    {
+      "rho": 0.05,
+      "epsilon": 0.05,
+      "p_at_10": 0.728,
+      "l1_gamma_pobs": 0.040875245109155973,
+      "delta_pobs_gamma_ot": 0.00018026493864785678,
+      "pobs_transport_cost": 1.9918709309745828,
+      "exact_ot_transport_cost": 1.991690666035935,
+      "iterations": 30,
+      "runtime_seconds": 0.4064934253692627,
+      "wall_clock_seconds": 0.44126415252685547
+    },
+    {
+      "rho": 0.1,
+      "epsilon": 0.005,
+      "p_at_10": 0.72,
+      "l1_gamma_pobs": 0.05585709872060951,
+      "delta_pobs_gamma_ot": 0.0003206382210883315,
+      "pobs_transport_cost": 1.9919099652948744,
+      "exact_ot_transport_cost": 1.9915893270737863,
+      "iterations": 30,
+      "runtime_seconds": 0.40698981285095215,
+      "wall_clock_seconds": 0.44315648078918457
+    },
+    {
+      "rho": 0.1,
+      "epsilon": 0.05,
+      "p_at_10": 0.728,
+      "l1_gamma_pobs": 0.08251033060605655,
+      "delta_pobs_gamma_ot": 0.0001705654165443174,
+      "pobs_transport_cost": 1.9920168601839705,
+      "exact_ot_transport_cost": 1.9918462947674263,
+      "iterations": 30,
+      "runtime_seconds": 0.3982863426208496,
+      "wall_clock_seconds": 0.43584704399108887
+    },
+    {
+      "rho": 0.2,
+      "epsilon": 0.005,
+      "p_at_10": 0.722,
+      "l1_gamma_pobs": 0.07697473274832742,
+      "delta_pobs_gamma_ot": 0.00027981487121139965,
+      "pobs_transport_cost": 1.9921164756360699,
+      "exact_ot_transport_cost": 1.9918366607648585,
+      "iterations": 30,
+      "runtime_seconds": 0.39856648445129395,
+      "wall_clock_seconds": 0.4354262351989746
+    },
+    {
+      "rho": 0.2,
+      "epsilon": 0.05,
+      "p_at_10": 0.728,
+      "l1_gamma_pobs": 0.16802802762885147,
+      "delta_pobs_gamma_ot": 0.00015132191285104069,
+      "pobs_transport_cost": 1.9923124895740332,
+      "exact_ot_transport_cost": 1.9921611676611821,
+      "iterations": 30,
+      "runtime_seconds": 0.38750743865966797,
+      "wall_clock_seconds": 0.4228336811065674
+    },
+    {
+      "rho": 0.5,
+      "epsilon": 0.005,
+      "p_at_10": 0.726,
+      "l1_gamma_pobs": 0.24937857819203738,
+      "delta_pobs_gamma_ot": 0.00016905222243060458,
+      "pobs_transport_cost": 1.9929060596010786,
+      "exact_ot_transport_cost": 1.9927370073786481,
+      "iterations": 30,
+      "runtime_seconds": 0.36913418769836426,
+      "wall_clock_seconds": 0.407196044921875
+    },
+    {
+      "rho": 0.5,
+      "epsilon": 0.05,
+      "p_at_10": 0.728,
+      "l1_gamma_pobs": 0.4400130891652328,
+      "delta_pobs_gamma_ot": 9.445770272646647e-05,
+      "pobs_transport_cost": 1.9932250143198207,
+      "exact_ot_transport_cost": 1.9931305566170945,
+      "iterations": 30,
+      "runtime_seconds": 0.3803749084472656,
+      "wall_clock_seconds": 0.4189581871032715
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "politics (mideast vs misc)": {
+    "categories": [
+      "talk.politics.mideast",
+      "talk.politics.misc"
+    ],
+    "published_code_docdoc": 0.85,
+    "results": {
+      "PSD-CODE": {
+        "doc_doc": [
+          0.5139095044679459
+        ],
+        "doc_word": [
+          0.537115384038893
+        ]
+      },
+      "W-PSD-CODE (exact OT)": {
+        "doc_doc": [
+          0.4887216816501973
+        ],
+        "doc_word": [
+          0.48139920293904626
+        ]
+      },
+      "W-PSD-CODE (entropic)": {
+        "doc_doc": [
+          0.49778697200996674
+        ],
+        "doc_word": [
+          0.5270779638056994
+        ]
+      },
+      "W-PSD-CODE (KL, eps=0.05)": {
+        "doc_doc": [
+          0.509718410860745
+        ],
+        "doc_word": [
+          0.5322186544000179
+        ]
+      }
+    }
+  },
+  "windows/hardware (confusable pair)": {
+    "categories": [
+      "comp.os.ms-windows.misc",
+      "comp.sys.ibm.pc.hardware"
+    ],
+    "published_code_docdoc": 0.68,
+    "results": {
+      "PSD-CODE": {
+        "doc_doc": [
+          0.49547928270276087
+        ],
+        "doc_word": [
+          0.4835784276853156
+        ]
+      },
+      "W-PSD-CODE (exact OT)": {
+        "doc_doc": [
+          0.4852433399912796
+        ],
+        "doc_word": [
+          0.4644154880643233
+        ]
+      },
+      "W-PSD-CODE (entropic)": {
+        "doc_doc": [
+          0.48264333835834566
+        ],
+        "doc_word": [
+          0.503659407515816
+        ]
+      },
+      "W-PSD-CODE (KL, eps=0.05)": {
+        "doc_doc": [
+          0.49397884847664514
+        ],
+        "doc_word": [
+          0.4847805858059665
+        ]
+      }
+    }
+  },
+  "atheism/graphics/crypt (triple)": {
+    "categories": [
+      "alt.atheism",
+      "comp.graphics",
+      "sci.crypt"
+    ],
+    "published_code_docdoc": 0.66,
+    "results": {
+      "PSD-CODE": {
+        "doc_doc": [
+          0.38648119524107627
+        ],
+        "doc_word": [
+          0.4344958126069998
+        ]
+      },
+      "W-PSD-CODE (exact OT)": {
+        "doc_doc": [
+          0.35380285857365074
+        ],
+        "doc_word": [
+          0.35931793107490967
+        ]
+      },
+      "W-PSD-CODE (entropic)": {
+        "doc_doc": [
+          0.32654137092592034
+        ],
+        "doc_word": [
+          0.40278575185060655
+        ]
+      },
+      "W-PSD-CODE (KL, eps=0.05)": {
+        "doc_doc": [
+          0.37586262732445574
+        ],
+        "doc_word": [
+          0.42065875142032577
+        ]
+      }
+    }
+  }
+}

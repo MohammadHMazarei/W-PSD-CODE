@@ -1,0 +1,86 @@
+[
+  {
+    "label": "PSD-CODE",
+    "P@5": 0.7959999999999999,
+    "P@10": 0.726,
+    "P@20": 0.664,
+    "iterations": 60
+  },
+  {
+    "label": "FGW-WordNet (alpha=0.1)",
+    "P@5": 0.508,
+    "P@10": 0.52,
+    "P@20": 0.465,
+    "iterations": 60
+  },
+  {
+    "label": "FGW-WordNet (alpha=0.3)",
+    "P@5": 0.536,
+    "P@10": 0.508,
+    "P@20": 0.46599999999999997,
+    "iterations": 60
+  },
+  {
+    "label": "FGW-WordNet (alpha=0.5)",
+    "P@5": 0.528,
+    "P@10": 0.516,
+    "P@20": 0.465,
+    "iterations": 60
+  },
+  {
+    "label": "FGW-WordNet (alpha=0.7)",
+    "P@5": 0.52,
+    "P@10": 0.524,
+    "P@20": 0.45400000000000007,
+    "iterations": 60
+  },
+  {
+    "label": "FGW-WordNet (alpha=0.9)",
+    "P@5": 0.516,
+    "P@10": 0.512,
+    "P@20": 0.451,
+    "iterations": 60
+  },
+  {
+    "label": "Debiased entropic (eps=0.005)",
+    "P@5": 0.49200000000000005,
+    "P@10": 0.42800000000000005,
+    "P@20": 0.349,
+    "iterations": 60
+  },
+  {
+    "label": "Debiased entropic (eps=0.01)",
+    "P@5": 0.38,
+    "P@10": 0.344,
+    "P@20": 0.312,
+    "iterations": 60
+  },
+  {
+    "label": "Debiased entropic (eps=0.03)",
+    "P@5": 0.38,
+    "P@10": 0.36400000000000005,
+    "P@20": 0.379,
+    "iterations": 60
+  },
+  {
+    "label": "Debiased entropic (eps=0.05)",
+    "P@5": 0.364,
+    "P@10": 0.37800000000000006,
+    "P@20": 0.37000000000000005,
+    "iterations": 60
+  },
+  {
+    "label": "W-PSD-CODE (KL, eps=0.05) [existing]",
+    "P@5": 0.7959999999999999,
+    "P@10": 0.73,
+    "P@20": 0.6629999999999999,
+    "iterations": 60
+  },
+  {
+    "label": "W-PSD-CODE (KL, eps=0.05) + warmup=20",
+    "P@5": 0.7959999999999999,
+    "P@10": 0.728,
+    "P@20": 0.6639999999999999,
+    "iterations": 60
+  }
+]

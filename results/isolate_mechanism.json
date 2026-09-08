@@ -1,0 +1,26 @@
+[
+  {
+    "Method": "PSD-CODE (fixed-lambda baseline)",
+    "Embedding P@10": 0.726,
+    "Coupling-only P@10": 1.0,
+    "L1(Gamma,Pobs)": 0.0
+  },
+  {
+    "Method": "W-PSD-CODE (exact OT)",
+    "Embedding P@10": 0.47200000000000003,
+    "Coupling-only P@10": 0.38799999999999996,
+    "L1(Gamma,Pobs)": 1.9500640204865556
+  },
+  {
+    "Method": "W-PSD-CODE (entropic)",
+    "Embedding P@10": 0.392,
+    "Coupling-only P@10": 0.81,
+    "L1(Gamma,Pobs)": 0.9227327648816903
+  },
+  {
+    "Method": "W-PSD-CODE (KL-anchored)",
+    "Embedding P@10": 0.73,
+    "Coupling-only P@10": 1.0,
+    "L1(Gamma,Pobs)": 0.03213686890880864
+  }
+]

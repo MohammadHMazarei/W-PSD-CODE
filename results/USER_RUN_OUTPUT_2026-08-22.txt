@@ -1,0 +1,10 @@
+User-provided full publication-budget run output (2026-08-22).
+
+Command:
+python code/run_heldout_validation_test.py --validation-seeds 10 --test-seeds 30 --outer-iters 60 --inner-iters 10
+
+Key result:
+selected mu=0.01 from validation only.
+Primary test: n=30, mean baseline P@10=0.4968666667, mean anchored P@10=0.5682666667, mean gain=0.0714, sd=0.0161471680, 95% CI=[0.0653705484,0.0774294516], paired t(29)=24.21934955, p=8.64896175e-21, Cohen dz=4.42182803, sign-flip permutation p=9.9999e-06; 30/30 positive gains.
+
+Reverse direction: mean gain=0.0025333333, 95% CI=[-0.0047784688,0.0098451355], paired t(29)=0.70861442, p=0.48422149, Cohen dz=0.12937470, sign-flip p=0.49488505; 18 positive, 11 negative, 1 zero.

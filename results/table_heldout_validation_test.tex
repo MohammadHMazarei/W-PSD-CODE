@@ -1,0 +1,17 @@
+\begin{table}
+\centering
+\caption{Validation/test confirmation for the primary held-out attribute split. $\mu$ is selected on 10 validation masks only and then frozen for 30 independent test masks. The full 60$\times$10 optimisation budget is used for every test mask; the confidence interval is for the paired P@10 difference.}
+\label{tab:heldout_validation_test}
+\begin{tabular}{lccc}
+\toprule
+Quantity & PSD-CODE & W-PSD-CODE & Difference \\
+\midrule
+Mean P@10 & 0.4969 & 0.5683 & +0.0714 \\
+95\% CI for paired gain & --- & --- & [0.0654, 0.0774] \\
+Paired $t$ test & --- & --- & $t(29)=24.22$, $p=8.65\times10^{-21}$ \\
+Cohen's $d_z$ & --- & --- & 4.42 \\
+Sign-flip permutation & --- & --- & $p=1.0\times10^{-5}$ \\
+Positive test gains & --- & --- & 30/30 \\
+\bottomrule
+\end{tabular}
+\end{table}

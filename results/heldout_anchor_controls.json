@@ -1,0 +1,82 @@
+{
+  "protocol": {
+    "mu": 0.01,
+    "test_seeds": [
+      2000
+    ],
+    "keep": 0.9,
+    "outer_iters": 5,
+    "inner_iters": 3,
+    "correct_anchor": "held-out ecological attributes (33 appearance / 52 ecological split)",
+    "permuted_anchor": "same ecological geometry after class-label permutation",
+    "noise_anchor": "density-matched random binary 52-attribute matrix"
+  },
+  "summary": {
+    "correct": {
+      "condition": "correct",
+      "n": 1,
+      "mean_baseline_P@10": 0.5160000000000001,
+      "mean_anchor_P@10": 0.554,
+      "mean_gain_P@10": 0.03799999999999992,
+      "sd_gain_P@10": NaN,
+      "ci95_gain_P@10": [
+        NaN,
+        NaN
+      ],
+      "paired_t": NaN,
+      "df": 0,
+      "paired_t_p": 0.0,
+      "positive_seeds": 1,
+      "zero_seeds": 0,
+      "negative_seeds": 0
+    },
+    "permuted": {
+      "condition": "permuted",
+      "n": 1,
+      "mean_baseline_P@10": 0.5160000000000001,
+      "mean_anchor_P@10": 0.386,
+      "mean_gain_P@10": -0.13000000000000012,
+      "sd_gain_P@10": NaN,
+      "ci95_gain_P@10": [
+        NaN,
+        NaN
+      ],
+      "paired_t": NaN,
+      "df": 0,
+      "paired_t_p": 0.0,
+      "positive_seeds": 0,
+      "zero_seeds": 0,
+      "negative_seeds": 1
+    },
+    "noise": {
+      "condition": "noise",
+      "n": 1,
+      "mean_baseline_P@10": 0.5160000000000001,
+      "mean_anchor_P@10": 0.46,
+      "mean_gain_P@10": -0.056000000000000105,
+      "sd_gain_P@10": NaN,
+      "ci95_gain_P@10": [
+        NaN,
+        NaN
+      ],
+      "paired_t": NaN,
+      "df": 0,
+      "paired_t_p": 0.0,
+      "positive_seeds": 0,
+      "zero_seeds": 0,
+      "negative_seeds": 1
+    }
+  },
+  "rows": [
+    {
+      "seed": 2000,
+      "baseline_P@10": 0.5160000000000001,
+      "correct_P@10": 0.554,
+      "correct_gain": 0.03799999999999992,
+      "permuted_P@10": 0.386,
+      "permuted_gain": -0.13000000000000012,
+      "noise_P@10": 0.46,
+      "noise_gain": -0.056000000000000105
+    }
+  ]
+}

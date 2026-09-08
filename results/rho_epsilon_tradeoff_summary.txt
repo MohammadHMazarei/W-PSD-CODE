@@ -1,0 +1,11 @@
+rho-epsilon tradeoff summary
+================================
+Best raw P@10: rho=0.5, epsilon=0.01, P@10=0.7320, L1=0.3530
+Best conservative cell (within 0.005 P@10 of maximum): rho=0.005, epsilon=0.2, P@10=0.7280, L1=0.0045
+
+rho=0.005: best epsilon=0.03, P@10=0.7280, L1=0.0065
+rho=0.03: best epsilon=0.03, P@10=0.7280, L1=0.0229
+rho=0.05: best epsilon=0.03, P@10=0.7280, L1=0.0378
+rho=0.1: best epsilon=0.03, P@10=0.7280, L1=0.0766
+rho=0.2: best epsilon=0.01, P@10=0.7280, L1=0.1127
+rho=0.5: best epsilon=0.01, P@10=0.7320, L1=0.3530
