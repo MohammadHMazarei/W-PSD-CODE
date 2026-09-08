@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+POT>=0.9  
+spacy>=3.7
+nltk>=3.8
