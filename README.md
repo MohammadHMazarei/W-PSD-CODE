@@ -62,7 +62,7 @@ python run_all.py                              # Table 2, Fig. 7, Fig. 8
 
 `POT` is optional; if absent, the code falls back to a SciPy/HiGHS linear-program solver for the
 exact-OT step (see `common/_ot_backend.py`) — note that this fallback is what the manuscript's
-published exact-OT numbers correspond to (see `REPRODUCTION_GUIDE.md` for details). `spacy` and
+published exact-OT numbers correspond to. `spacy` and
 `nltk` are needed only for the two ruled-out-fix scripts under `improvements/`.
 
 ## Citation
